@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ID Verification</title>
+<script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Input Verification</h1>
+    <p>Enter your ID number to verify if it exists in the CSV file.</p>
+    <div id="form-container">
+        <form id="verifyForm" onsubmit="return verifyInput()">
+            <input type="text" id="userInput" placeholder="Enter your ID number" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div id="result"></div>
+</body>
+</html>
